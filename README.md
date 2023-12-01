@@ -18,6 +18,11 @@ For each icon I'm following these steps:
 4. Add the icon to /svgs/ folder, using a snake_case name surrounded by colons and a '.svg' extension
 5. Add a file to /mappings/ using the same name but without the '.svg' extension. This file indicates which app names should match the icon. The format is `"App Name 1" | "App Name 2"`
 
+## How to build 
+
+1. add svgs
+2. make `mapping` to your svgs in ./mappings
+3. pnpm run build
 
 ## Using icon_map_fn.sh
 
